@@ -14,8 +14,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Repository {
-    private String ownerLogin;
     private String repositoryName;
+    private String ownerLogin;
     @JsonProperty("branches")
     private List<Branch> listOfBranches = new ArrayList<>();
 
